@@ -155,7 +155,7 @@
 
   ![unknown](README.assets/unknown.png)
 
-- 학습된 모델을 통해 영화 데이터들의 줄거리들에게 100차원 벡터를 부여하고 해당 벡터들의 중심값을 `scikit-learn`의 `Kmeas`를 라이브러리를 통해 도출
+- 학습된 모델을 통해 영화 데이터들의 줄거리들에게 100차원 벡터를 부여하고 해당 벡터들의 중심값을 `scikit-learn`의 `Kmeans`를 라이브러리를 통해 도출
 - 해당 중심 점들 코사인 유사도로 계산하여 각 영화별로 가까운 6개의 영화들을 `recommend` 필드에 저장
 
 ![alien_wv](README.assets/alien_wv.gif)
